@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Form</title>
+    <style>
+        body {
+            background-image: url(./images/paul-volkmer-qVotvbsuM_c-unsplash.jpg);
+            background-size: cover;
+            color: #fff;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 50px;
+            background-color: #ffffff;
+            color: #fff;
+        }
+
+        .button input[type="submit"] {
+            border-radius: 100px;
+            background: url(./images/paul-volkmer-qVotvbsuM_c-unsplash.jpg) lightgray 100% / cover no-repeat;
+            color: white;
+            border-color: #fff;
+            padding: 10px 20px;
+            border: 10px;
+            border-radius: 50px;
+        }
+
+        .button:hover {
+            background: url(./images/paul-volkmer-qVotvbsuM_c-unsplash.jpg) #222 100% / cover no-repeat;
+            color: white;
+            border: 10px;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-icons i {
+            font-size: 24px;
+            margin: 0 10px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./images/image3.png" alt="Profile Picture" class="profile-pic"><br>
+        <label for="prenom">Prénom</label><br>
+        <input type="text" id="prenom" name="prenom" required style="width: 89%; height: 30px; margin-bottom: 10px; padding: 10px; border: 1px solid #ccc;"><br>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required style="width: 90%; height: 30px; margin-bottom: 10px; padding: 10px; border: 1px solid #ccc;"><br>
+        
+          <label for="firstname">First Name:</label>
+          <input type="text" id="firstname" name="firstname" required style="width: 90%; height: 30px; margin-bottom: 10px; padding: 10px; border: 1px solid #ccc;"><br>
+        
+          <label for="description">Description:</label>
+          <textarea id="description" name="description" required style="width: 90%; height: 100px; margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 40px;"></textarea><br>
+          <div class="social-icons">
+              <i class="fab fa-facebook">1</i>
+              <i class="fab fa-twitter">2</i>
+              <i class="fab fa-instagram">3</i>
+              <i class="fab fa-linkedin">4</i>
+              <i class="fab fa-github">5</i>
+          </div><br>
+        <div class="button">
+          <input type="submit" value="Submit" style="width: 90%; height: 30px; color: #fff; padding: 10px; border: 2px solid #fff;cursor: pointer;">
+        </div>
+        </form>
+    </div>
+</body>
+</html>
