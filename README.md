@@ -34,7 +34,12 @@
 
 # Features
 
--
+- Easy Portfolio Creation: Carder offers a user-friendly interface, making it simple for users to build stunning portfolios without needing coding experience.
+- Responsive Design: Ensure your portfolio looks great on any device with fully responsive templates.
+- Integrated Contact Form: Allow potential clients and employers to reach you directly through a built-in contact form.
+- Seamless Social Media Integration: Connect your portfolio with your social media profiles to give visitors easy access to your online presence.
+- Code Flexibility for Developers: For those with coding experience, Carder supports custom HTML/CSS/JavaScript edits, offering unlimited design possibilities.
+- Secure and Scalable: Built with PHP for back-end operations, ensuring secure storage of user data and seamless scalability as your portfolio grows.
 
 
 
