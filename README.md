@@ -10,7 +10,7 @@
 
 ## Description :
 
-<img alt="followers" title="Follow me on Github" src="https://img.shields.io/github/followers/intel1337?color=236ad3&style=for-the-badge&logo=github&label=Follow"/>
+<img src="http://estruyf-github.azurewebsites.net/api/VisitorHit?user=intel1337&repo=Carder&countColorcountColor&countColor=%237B1E7B"/>
 
 
 ```With Carder, you can quickly build a standout online presence that leaves a lasting impression. Whether you’re a designer, photographer, writer, or developer, this platform is tailored to help you create a sleek, custom portfolio that reflects your professional journey.```
