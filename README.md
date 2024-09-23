@@ -1,5 +1,7 @@
 # Carder.co - Custom portfolio creator !
-![image](https://gifyu.com/image/SAlNb)
+
+
+
 - HTML/CSS/JS Portfolio Template Creator
 
 
