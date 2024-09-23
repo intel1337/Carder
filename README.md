@@ -10,7 +10,7 @@
 
 ## Description :
 
-<img src="http://estruyf-github.azurewebsites.net/api/VisitorHit?user=intel1337&repo=Carder&countColorcountColor&countColor=%237B1E7B"/><img src="https://img.shields.io/static/v1?label=HTML&message=HTML&color=orange?style=plastic&logo=appveyor" />
+<img src="https://img.shields.io/static/v1?label=Html&PHP=world&color=magenta?style=plastic"/>
 
 
 ```With Carder, you can quickly build a standout online presence that leaves a lasting impression. Whether you’re a designer, photographer, writer, or developer, this platform is tailored to help you create a sleek, custom portfolio that reflects your professional journey.```
