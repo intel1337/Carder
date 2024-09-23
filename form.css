@@ -1,0 +1,78 @@
+body {
+    background-image: url(./images/bkground.gif);
+    background-size: cover;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 30px;
+    text-align: center;
+}
+
+input[type="text"],
+textarea {
+    width: 10%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.button input[type="submit"] {
+    border-radius: 100px;
+    background: #fff;
+    color: #000;
+    border-color: #fff;
+    padding: 10px 20px;
+    border: 10px;
+    border-radius: 50px;
+    font-size:23px ;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #ccc;
+    color: #000;
+    border: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+#frm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+}
