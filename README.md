@@ -1,4 +1,4 @@
-# Carder.co - Custom portfolio creator !
+# Carder ✉️ - Custom portfolio creator !
 ### Get started with Carder today, and bring your work to life online!
 
 
