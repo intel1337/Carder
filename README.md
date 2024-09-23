@@ -10,8 +10,9 @@
 
 ## Description :
 
+```With Carder, you can quickly build a standout online presence that leaves a lasting impression. Whether you’re a designer, photographer, writer, or developer, this platform is tailored to help you create a sleek, custom portfolio that reflects your professional journey.```
+
 - HTML/CSS/JS/PHP Website, made to Create Custom individual portfolios.
-- With Carder, you can quickly build a standout online presence that leaves a lasting impression. Whether you’re a designer, photographer, writer, or developer, this platform is tailored to help you create a sleek, custom portfolio that reflects your professional journey.
 - [Features List](#Features)
 - [Support Us ☕️](#Support)
 
@@ -42,7 +43,7 @@
 - Code Flexibility for Developers: For those with coding experience, Carder supports custom HTML/CSS/JavaScript edits, offering unlimited design possibilities.
 - Secure and Scalable: Built with PHP for back-end operations, ensuring secure storage of user data and seamless scalability as your portfolio grows.
 
-# Support Us
+# Support 
 
 >ETH 0x4153B73B3DBA2aD1e86C74227a75B6EA125FD8A7
 
