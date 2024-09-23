@@ -10,7 +10,9 @@
 
 ## Description :
 
-Site fais en HTML/CSS/PHP/JS permettant aux utilisateurs de créer un portfolio depuis une Template.
+- HTML/CSS/JS/PHP Website, made to Create Custom individual portfolios.
+-   With Carder, you can quickly build a standout online presence that leaves a lasting impression. Whether you’re a designer, photographer, writer, or developer, this platform is tailored to help you create a sleek, custom portfolio that reflects your professional journey.
+
 
 
 # Screenshots :
