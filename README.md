@@ -20,7 +20,8 @@ Site fais en HTML/CSS/PHP/JS permettant aux utilisateurs de créer un portfolio 
 
 -
 
-![New Project](https://github.com/user-attachments/assets/86fd4208-36d4-408d-9092-61781d454b59)
+![image](https://github.com/user-attachments/assets/4e44c489-8f51-4139-ae57-e8f9024ba250)
+
 
 -
 
