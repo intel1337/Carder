@@ -10,6 +10,9 @@
 
 ## Description :
 
+<img alt="followers" title="Follow me on Github" src="https://img.shields.io/github/followers/intel1337?color=236ad3&style=for-the-badge&logo=github&label=Follow"/>
+
+
 ```With Carder, you can quickly build a standout online presence that leaves a lasting impression. Whether you’re a designer, photographer, writer, or developer, this platform is tailored to help you create a sleek, custom portfolio that reflects your professional journey.```
 
 - HTML/CSS/JS/PHP Website, made to Create Custom individual portfolios.
