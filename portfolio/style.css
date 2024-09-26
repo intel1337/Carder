@@ -9,6 +9,7 @@
 body {
     font-family: 'Outfit', sans-serif;
     margin: auto;
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -31,12 +32,17 @@ header {
 
 nav {
     z-index: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    gap: 20px;
 }
 
 nav a {
     color: #33383C;
     text-decoration: none;
-    font-size: .97rem;
+    font-size: 24px;
     font-weight: 600;
     padding: 0.4rem 1.3rem;
 
@@ -55,26 +61,15 @@ nav a {
     position: relative;
 }
 
-nav a::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    width: calc(100% - 2.5rem);
-    height: 3px;
-    background-color: var(--primary-color);
-    transform: scale(0, 1);
-    transform-origin: left;
-    transition: transform .3s ease;
+nav a:hover {
+    background-color: #33383C;
+    color: #fff;
+    border-radius: 50px;
 }
-
-nav a:hover::before {
-    transform: scale(1, 1);
-}
-
 /*NAVBAR*/
 
 section {
-    margin: 3rem 8.5rem;
+    margin: 3rem 6.5rem;
 }
 
 .main {
@@ -127,7 +122,7 @@ section {
 }
 
 .social a:hover {
-    color: #fff;
+    color: rgb(170, 170, 170);
     background-color: var(--secondary-color);
     box-shadow: 0 0 20px var(--secondary-color);
     border-color: var(--secondary-color);
@@ -189,7 +184,7 @@ section {
     transition: .3s ease-in;
 }
 .cv-btn:hover {
-    background-color: transparent;
+    background-color:rgb(170, 170, 170);;
     color: var(--primary-color);
 }
 @media only screen and (max-width: 1024px) {

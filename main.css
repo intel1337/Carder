@@ -1,5 +1,5 @@
 body{
-    background-image: url(./images/bkground.gif);
+    background-image: url(./images/bkground-2-3-2.mp4);
     background-size: cover;
     color: #fff;
     font-family: sans-serif;
@@ -62,134 +62,6 @@ h1 {
     cursor: pointer;
     transition: transform 0.3s ease;
 }
-body{
-    background-image: url(./images/bkground.gif);
-    background-size: cover;
-    color: #fff;
-    font-family: sans-serif;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-h1 {
-    color: #FFF;
-    text-align: center;
-    text-shadow: 0px 13px 2px rgba(0, 0, 0, 0.50);
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: 96px;
-    display: flex;
-    width: 394px;
-    height: 134px;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
-.wallet {
-    width: 111px;
-    height: 85px;
-    fill: #FFF;
-    filter: drop-shadow(0px 13px 2px rgba(0, 0, 0, 0.50));
-    margin: 0;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    margin-left: -50%;
-    margin-top: -10%;
-}
- .logo { 
-    display: flex;
-    width: 20%;
-    height: 134px;
-    justify-content: center;
-    margin-left: 35%;
-    margin-top: 4%;
-}
-
-.carousel-items {
-    display: flex;
-    overflow-x: scroll;
-    overflow: hidden;
-    padding: 1rem 0;
-}
-.carousel-item {
-    margin-left: 1rem;
-}
-
-.card {
-    width: 600px;
-    height: 400px;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-body{
-    background-image: url(./images/bkground.gif);
-    background-size: cover;
-    color: #fff;
-    font-family: sans-serif;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-h1 {
-    color: #FFF;
-    text-align: center;
-    text-shadow: 0px 13px 2px rgba(0, 0, 0, 0.50);
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: 96px;
-    display: flex;
-    width: 394px;
-    height: 134px;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
-.wallet {
-    width: 111px;
-    height: 85px;
-    fill: #FFF;
-    filter: drop-shadow(0px 13px 2px rgba(0, 0, 0, 0.50));
-    margin: 0;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    margin-left: -50%;
-    margin-top: -10%;
-}
- .logo { 
-    display: flex;
-    width: 20%;
-    height: 134px;
-    justify-content: center;
-    margin-left: 35%;
-    margin-top: 4%;
-}
-
-.carousel-items {
-    display: flex;
-    overflow-x: scroll;
-    overflow: hidden;
-    padding: 1rem 0;
-}
-.carousel-item {
-    margin-left: 1rem;
-}
-
-.card {
-    width: 600px;
-    height: 400px;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-} 
 .carousel {
     width: calc(90% - 20px);
     height: 200px;
@@ -234,5 +106,3 @@ h1 {
     margin-top: 10%;
     position: absolute;
 }
-
- 

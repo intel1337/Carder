@@ -13,11 +13,8 @@
 
 <body>
     <header id="header">
-
         <div id="logo" class="logo">
-            logo
-      
-            
+        <a href="../index.html"><img src="./logo.png" alt="" style="display: flex; width: 200px; height: 200px; position: relative; padding-right: 500px; bottom: 50px; "></a>
         </div>
         <input type="checkbox" id="click">
         <label for="click" class="mainicon">
@@ -26,45 +23,35 @@
             </div>
         </label>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <a href="../index.html">Home</a>
+            <a href="./skills.php">Skills</a>
+            <a href="./contact.html">Contact</a>
         </nav>
     </header>
     <section>
         <div class="main">
             <div class="Information">
-            <form action="./form.php">
+        <form action="./form.php">
             <h3 id="user-greeting">Je suis <?= $_POST['prenom']; ?> <?= $_POST['name'];?></h3>
             <h1 id="metier"><?= $_POST['work']; ?></h1>
             <p id="desc"><?= $_POST['description']; ?></h1></p>
-                <div class="social">
-                    <a href="https://github.com/CHAOUCHI"><i class="bi bi-github"></i></a>
-                    <a href="https://www.youtube.com/channel/UCV2rGiTHvgH03KZ-jrYZMTA"><i class="bi bi-youtube"></i></a>
-                    <a href="https://t.me/web_devs_i"><i class="bi bi-telegram"></i></a>
-                    <a href="https://www.linkedin.com/in/vikash-web-dev/"><i class="bi bi-linkedin"></i></a>
-                </div>
-            </form>
-                <button onclick="report(a)" class="cv-btn">Download</button>
+        </form>
+        <form action="./form.php">
+            <div class="social">
+                <a href="<?= $_POST['hiddenInput4']; ?>"><i class="bi bi-github"></i></a>
+                <a href="<?= $_POST['hiddenInput2']; ?>"><i class="bi bi-instagram"></i></a>
+                <a href="<?= $_POST['hiddenInput']; ?>"><i class="bi bi-twitter"></i></a>
+                <a href="<?= $_POST['hiddenInput3']; ?>"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </form>
             </div>
                 <div class="blue-bg-1">
                    <div class="white-bg">
                         <div class="blue-bg-2">
-                            <img src="<?=$_POST['image']?>" alt="Massinissa Chaouchi pic">
+                            <img src="<?=$_POST['avatar']?>" alt="User_Pic">
                         </div>
                    </div>
                 </div>
-                
-                <!--<div class="test">
-                <p>Screenshot tester</p>
-    <button onclick="report()" class="caca">Take screenshot</button>
-    <div class="container" id="containerr">
-        <img width="75%" class="screen" style="display:none">
-        <a id="dlink" href="#" style="display:none;">download link</a>
-    </div>-->
-
 <script>
     function report() {
         var d = new Date();
